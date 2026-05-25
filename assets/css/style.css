@@ -212,6 +212,18 @@ p  { color: var(--text-secondary); }
   margin-bottom: 6px;
 }
 
+/* ─── Logo block (wide horizontal logos) ────────────────────── */
+.venture__logo-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 360px;
+  margin: 0 auto;
+}
+.venture__logo-block img {
+  width: 100%;
+}
+
 /* ─── App icon (real image, no tint treatment) ───────────────── */
 .venture__app-icon {
   display: flex;
