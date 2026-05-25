@@ -251,7 +251,8 @@ p  { color: var(--text-secondary); }
 .venture__inner--rtl { }
 .venture__content h2 { margin-bottom: 16px; }
 .venture__content p { margin-bottom: 16px; font-size: 1.05rem; }
-.venture__actions { display: flex; gap: 12px; flex-wrap: nowrap; margin-top: 24px; }
+.venture__actions { display: flex; gap: 10px; flex-wrap: nowrap; margin-top: 24px; }
+.venture__actions .btn { padding: 10px 16px; font-size: 0.85rem; }
 .venture__btn {
   background: color-mix(in srgb, var(--btn-accent) 20%, transparent);
   color: var(--btn-accent);
