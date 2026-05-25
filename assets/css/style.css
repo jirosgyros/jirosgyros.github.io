@@ -212,6 +212,20 @@ p  { color: var(--text-secondary); }
   margin-bottom: 6px;
 }
 
+/* ─── App icon (real image, no tint treatment) ───────────────── */
+.venture__app-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 280px;
+  margin: 0 auto;
+}
+.venture__app-icon img {
+  width: 100%;
+  max-width: 220px;
+  border-radius: 28px;
+}
+
 /* ─── Ventures ───────────────────────────────────────────────── */
 .venture--tandem { background: var(--bg); }
 .venture--redact { background: var(--surface); }
