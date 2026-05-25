@@ -326,8 +326,8 @@ p  { color: var(--text-secondary); }
 }
 
 /* ─── Venture color overrides ────────────────────────────────── */
-.venture--podcast { background: var(--bg); }
-.venture--erebus  { background: var(--surface); }
+.venture--erebus  { background: var(--bg); }
+.venture--podcast { background: var(--surface); }
 
 /* ─── Contact ────────────────────────────────────────────────── */
 .contact { background: var(--bg); border-top: 1px solid var(--border); }
