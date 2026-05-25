@@ -251,7 +251,7 @@ p  { color: var(--text-secondary); }
 .venture__inner--rtl { }
 .venture__content h2 { margin-bottom: 16px; }
 .venture__content p { margin-bottom: 16px; font-size: 1.05rem; }
-.venture__actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+.venture__actions { display: flex; gap: 12px; flex-wrap: nowrap; margin-top: 24px; }
 .venture__btn {
   background: color-mix(in srgb, var(--btn-accent) 20%, transparent);
   color: var(--btn-accent);
@@ -357,6 +357,11 @@ p  { color: var(--text-secondary); }
   background: var(--surface-hover);
   border-color: rgba(255,255,255,0.16);
   transform: translateY(-2px);
+}
+
+/* ─── Venture actions responsive wrap ────────────────────────── */
+@media (max-width: 900px) {
+  .venture__actions { flex-wrap: wrap; }
 }
 
 /* ─── Responsive ─────────────────────────────────────────────── */
