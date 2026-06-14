@@ -13,6 +13,8 @@
   --accent-redact:   #16a34a;
   --accent-podcast:  #d97706;
   --accent-erebus:   #7c3aed;
+  --accent-levelup:  #06b6d4;
+  --accent-sentinel: #e11d48;
 
   --font-sans:  'Inter', sans-serif;
   --font-mono:  'JetBrains Mono', monospace;
@@ -327,8 +329,10 @@ p  { color: var(--text-secondary); }
 }
 
 /* ─── Venture color overrides ────────────────────────────────── */
-.venture--erebus  { background: var(--bg); }
-.venture--podcast { background: var(--surface); }
+.venture--erebus   { background: var(--bg); }
+.venture--podcast  { background: var(--surface); }
+.venture--levelup  { background: var(--bg); }
+.venture--sentinel { background: var(--surface); }
 
 /* ─── Contact ────────────────────────────────────────────────── */
 .contact { background: var(--bg); border-top: 1px solid var(--border); }
